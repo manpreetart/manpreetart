@@ -236,9 +236,9 @@ onBeforeUnmount(() => {
 }
 
 @media (max-width: 760px) {
-  /* Mobile: reel stays framed; no scroll-driven expansion */
+  /* Mobile: reel is full bleed from the start; no scroll-driven expansion */
   .hero {
-    --q: 1;
+    --q: 0;
     height: 100vh;
     height: 100svh;
   }
