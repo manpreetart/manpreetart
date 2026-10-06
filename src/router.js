@@ -16,8 +16,15 @@ export default createRouter({
   ],
   async scrollBehavior(to, from, saved) {
     // Let the outgoing page fade before jumping.
-    if (from.matched.length && to.path !== from.path) await wait(260)
-    if (saved) return saved
+    if (from.matched.length && to.path !== from.path) await wait(300)
+    if (saved) {
+      // Wait until the incoming page is tall enough to scroll back to where we were.
+      const start = Date.now()
+      while (document.documentElement.scrollHeight < saved.top + window.innerHeight && Date.now() - start < 2000) {
+        await wait(50)
+      }
+      return saved
+    }
     if (to.hash) return { el: to.hash, top: 0, behavior: to.path === from.path ? 'smooth' : 'auto' }
     return { top: 0 }
   },

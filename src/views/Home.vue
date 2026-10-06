@@ -236,6 +236,12 @@ onBeforeUnmount(() => {
 }
 
 @media (max-width: 760px) {
+  /* Mobile: reel stays framed; no scroll-driven expansion */
+  .hero {
+    --q: 1;
+    height: 100vh;
+    height: 100svh;
+  }
   .hero-bar {
     flex-direction: column;
     align-items: flex-start;

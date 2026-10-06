@@ -94,8 +94,10 @@ onBeforeUnmount(() => {
   object-fit: cover;
   transition: transform 1.2s var(--ease);
 }
-.card:hover .media img {
-  transform: scale(1.035);
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .media img {
+    transform: scale(1.035);
+  }
 }
 .preview {
   position: absolute;
