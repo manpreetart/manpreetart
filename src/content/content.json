@@ -1,0 +1,77 @@
+{
+  "showreel": "https://vimeo.com/1061880803",
+
+  "contact": {
+    "title": "Manpreet Singh is a 3D and motion designer making form, light and movement for brands.",
+    "description": "Placeholder bio. Working across Cinema 4D, Houdini, Redshift and After Effects, from concept and look development through to final frames. Available for freelance and studio collaborations.",
+    "portrait": "portrait.jpg",
+    "resume": "resume.pdf",
+    "email": "hello@manpreetsingh.com",
+    "links": [
+      { "label": "Vimeo", "url": "https://vimeo.com/" },
+      { "label": "Instagram", "url": "https://instagram.com/" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/" }
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "Northbound",
+      "year": "2025",
+      "thumbnail": "https://i.vimeocdn.com/video/2001692039-6bdcde56c96a902569d9b5f4eb45c866b2f86f02c69e024bd4c959266067af5a-d_1280",
+      "description": "Placeholder description. A launch film built around a single continuous camera move, with every product beat timed to the score.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1072580894", "caption": "Launch film, 60s" }
+      ]
+    },
+    {
+      "title": "Soft Matter",
+      "year": "2025",
+      "thumbnail": "https://i.vimeocdn.com/video/1029938757-81c860f9e05bf5608190d487bc2fb9e1897d75910eb3d0fdd793d9062a37b508-d_1280",
+      "description": "Placeholder description. A self-initiated series of material and simulation studies exploring cloth, soft bodies and particles.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/322347367", "caption": "Material studies" },
+        { "vimeo": "https://vimeo.com/413745852", "caption": "Loop no. 04" },
+        { "vimeo": "https://vimeo.com/335588681", "caption": "Loop no. 07" }
+      ]
+    },
+    {
+      "title": "Signal",
+      "year": "2025",
+      "thumbnail": "https://i.vimeocdn.com/video/2028515617-9a9990216bae7512aac4520b2678bdec1e42208b353ef4cd7319b3c1a5e7d4f0-d_1280",
+      "description": "Placeholder description. Identity motion system for a broadcast channel: idents, transitions and a toolkit of animated type.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1094273500", "caption": "Ident package" }
+      ]
+    },
+    {
+      "title": "Flat White",
+      "year": "2024",
+      "thumbnail": "https://i.vimeocdn.com/video/1960657432-6d175421cb7eac7840069038f3d5ab1ef5b5f3b4778da203a26251194769af92-d_1280",
+      "description": "Placeholder description. Mixed 2D, 3D and live action for a seasonal campaign, delivered across broadcast and social.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1038458662", "caption": "Campaign edit" }
+      ]
+    },
+    {
+      "title": "Tunnel Vision",
+      "year": "2024",
+      "thumbnail": "https://i.vimeocdn.com/video/675965688-620b8b3f5529b60d5257bf51dd01ad7276e919b858f4423a9c35235773e43dfd-d_1280",
+      "description": "Placeholder description. Visuals for a live music tour, designed to run as long-form loops behind the stage.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/205194581", "caption": "Tour visuals, selects" },
+        { "vimeo": "https://vimeo.com/424617839", "caption": "Stage loop" }
+      ]
+    },
+    {
+      "title": "Facet",
+      "year": "2023",
+      "thumbnail": "https://i.vimeocdn.com/video/849547912-0e3bd447d2f115af038a399c03ec0da3ad071f75383a9aa99f1ac2c91bb9c492-d_1280",
+      "description": "Placeholder description. Product visualisation for a jewellery collection, lit and shot entirely in CG.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/386827479", "caption": "Hero film" },
+        { "vimeo": "https://vimeo.com/501424831", "caption": "Process" }
+      ]
+    }
+  ]
+}
