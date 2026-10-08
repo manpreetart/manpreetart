@@ -16,61 +16,154 @@
 
   "projects": [
     {
-      "title": "Northbound",
+      "title": "Helcim Brand Evolution",
+      "year": "2024",
+      "description": "Placeholder description. Motion work for the evolution of the Helcim brand.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598767", "caption": "New Brand Video" },
+        { "vimeo": "https://vimeo.com/1233598719", "caption": "New Brand Launch Video" }
+      ]
+    },
+    {
+      "title": "Card Reader Ads",
       "year": "2025",
-      "thumbnail": "https://i.vimeocdn.com/video/2001692039-6bdcde56c96a902569d9b5f4eb45c866b2f86f02c69e024bd4c959266067af5a-d_1280",
+      "description": "Placeholder description. A set of short product ads for the Card Reader.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598868", "caption": "Stand Colors" },
+        { "vimeo": "https://vimeo.com/1233598860", "caption": "Stand Colors Animation" },
+        { "vimeo": "https://vimeo.com/1233598724", "caption": "Helcim Colored Case Video" }
+      ]
+    },
+    {
+      "title": "Savings Ads",
+      "year": "2023",
+      "description": "Placeholder description. A pair of ads about business growth and savings.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598721", "caption": "Business growth Ad" },
+        { "vimeo": "https://vimeo.com/1233598798", "caption": "Savings 3D Animation Ad" }
+      ]
+    },
+    {
+      "title": "Payment Extension Launch",
+      "year": "2025",
+      "description": "Placeholder description. Launch film for the Helcim payment extension.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598734", "caption": "Helcim Payment Extension Launch Video" }
+      ]
+    },
+    {
+      "title": "Smart Terminal Launch Video",
+      "year": "2025",
+      "description": "Placeholder description. The extended launch film for the Smart Terminal.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598802", "caption": "Smart Terminal Launch Video" }
+      ]
+    },
+    {
+      "title": "Product test drives",
+      "year": "2025",
+      "description": "Placeholder description. A pair of product walkthrough animations.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598736", "caption": "Helcim QBO Integration Animation Video" },
+        { "vimeo": "https://vimeo.com/1233598795", "caption": "Recurring Helcim Payments Video" }
+      ]
+    },
+    {
+      "title": "Smart Terminal scenes",
+      "year": "2025",
+      "description": "Placeholder description. A pair of product scenes for the Smart Terminal.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598712", "caption": "Smart terminal to Macbook" },
+        { "vimeo": "https://vimeo.com/1233598858", "caption": "Smart terminal on abstract environment" }
+      ]
+    },
+    {
+      "title": "Virtual Terminal",
+      "year": "2025",
+      "description": "Placeholder description. A product film for the Virtual Terminal.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598870", "caption": "Virtual Terminal" }
+      ]
+    },
+    {
+      "title": "Payments that fuels ambition",
+      "year": "2025",
+      "description": "Placeholder description. A pair of short ads about payments that fuel business ambition.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598875", "caption": "Ask a Merchant Ad" },
+        { "vimeo": "https://vimeo.com/1233598871", "caption": "Making the Connection Ad" }
+      ]
+    },
+    {
+      "title": "Start Card",
+      "year": "2025",
+      "description": "Placeholder description. A short product animation for the Start Card.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598869", "caption": "Start Card" }
+      ]
+    },
+    {
+      "title": "Hidden Fee Tracker",
+      "year": "2025",
+      "description": "Placeholder description. A spot about tracking hidden fees.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598759", "caption": "Hidden Fee Tracker Spot video" }
+      ]
+    },
+    {
+      "title": "Products Spinning",
+      "year": "2024",
+      "description": "Placeholder description. Product turntable animation.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598775", "caption": "Products Spinning Video" }
+      ]
+    },
+    {
+      "title": "Smart Terminal Launch",
+      "year": "2025",
+      "description": "Placeholder description. Launch film for the Smart Terminal.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598799", "caption": "Smart Terminal Launch" }
+      ]
+    },
+    {
+      "title": "International Women's Day",
+      "year": "2025",
+      "description": "Placeholder description. A short film for International Women's Day.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598760", "caption": "International Women's Day Video" }
+      ]
+    },
+    {
+      "title": "April Fool 2025",
+      "year": "2025",
+      "description": "Placeholder description. A playful short for April Fools' Day.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233598709", "caption": "April fool Video 2025" }
+      ]
+    },
+    {
+      "title": "Filmora 13 Launch",
+      "year": "2025",
+      "description": "Placeholder description. Launch film for Filmora 13.",
+      "videos": [
+        { "vimeo": "https://vimeo.com/1233599616", "caption": "Filmora 13 Launch Video" }
+      ]
+    },
+    {
+      "title": "Pet Feeder Ad",
+      "year": "2025",
       "description": "Placeholder description. A launch film built around a single continuous camera move, with every product beat timed to the score.",
       "videos": [
-        { "vimeo": "https://vimeo.com/1072580894", "caption": "Launch film, 60s" }
+        { "vimeo": "https://vimeo.com/1233599298", "caption": "Pet Feeder Ad, 12s" }
       ]
     },
     {
-      "title": "Soft Matter",
+      "title": "Beer Can Splash",
       "year": "2025",
-      "thumbnail": "https://i.vimeocdn.com/video/1029938757-81c860f9e05bf5608190d487bc2fb9e1897d75910eb3d0fdd793d9062a37b508-d_1280",
-      "description": "Placeholder description. A self-initiated series of material and simulation studies exploring cloth, soft bodies and particles.",
+      "description": "Placeholder description. A product splash animation for a beer can.",
       "videos": [
-        { "vimeo": "https://vimeo.com/322347367", "caption": "Material studies" },
-        { "vimeo": "https://vimeo.com/413745852", "caption": "Loop no. 04" },
-        { "vimeo": "https://vimeo.com/335588681", "caption": "Loop no. 07" }
-      ]
-    },
-    {
-      "title": "Signal",
-      "year": "2025",
-      "thumbnail": "https://i.vimeocdn.com/video/2028515617-9a9990216bae7512aac4520b2678bdec1e42208b353ef4cd7319b3c1a5e7d4f0-d_1280",
-      "description": "Placeholder description. Identity motion system for a broadcast channel: idents, transitions and a toolkit of animated type.",
-      "videos": [
-        { "vimeo": "https://vimeo.com/1094273500", "caption": "Ident package" }
-      ]
-    },
-    {
-      "title": "Flat White",
-      "year": "2024",
-      "thumbnail": "https://i.vimeocdn.com/video/1960657432-6d175421cb7eac7840069038f3d5ab1ef5b5f3b4778da203a26251194769af92-d_1280",
-      "description": "Placeholder description. Mixed 2D, 3D and live action for a seasonal campaign, delivered across broadcast and social.",
-      "videos": [
-        { "vimeo": "https://vimeo.com/1038458662", "caption": "Campaign edit" }
-      ]
-    },
-    {
-      "title": "Tunnel Vision",
-      "year": "2024",
-      "thumbnail": "https://i.vimeocdn.com/video/675965688-620b8b3f5529b60d5257bf51dd01ad7276e919b858f4423a9c35235773e43dfd-d_1280",
-      "description": "Placeholder description. Visuals for a live music tour, designed to run as long-form loops behind the stage.",
-      "videos": [
-        { "vimeo": "https://vimeo.com/205194581", "caption": "Tour visuals, selects" },
-        { "vimeo": "https://vimeo.com/424617839", "caption": "Stage loop" }
-      ]
-    },
-    {
-      "title": "Facet",
-      "year": "2023",
-      "thumbnail": "https://i.vimeocdn.com/video/849547912-0e3bd447d2f115af038a399c03ec0da3ad071f75383a9aa99f1ac2c91bb9c492-d_1280",
-      "description": "Placeholder description. Product visualisation for a jewellery collection, lit and shot entirely in CG.",
-      "videos": [
-        { "vimeo": "https://vimeo.com/386827479", "caption": "Hero film" },
-        { "vimeo": "https://vimeo.com/501424831", "caption": "Process" }
+        { "vimeo": "https://vimeo.com/1233606375", "caption": "Beer Can Splash Animation" }
       ]
     }
   ]

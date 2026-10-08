@@ -227,7 +227,7 @@ onBeforeUnmount(() => {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: clamp(32px, 4vw, 56px) var(--gap);
+  gap: var(--gap);
 }
 @media (max-width: 1000px) {
   .grid {
@@ -248,7 +248,7 @@ onBeforeUnmount(() => {
   }
   .grid {
     grid-template-columns: 1fr;
-    row-gap: 40px;
+    row-gap: 36px;
   }
 }
 </style>

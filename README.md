@@ -18,7 +18,7 @@ npm run build    # outputs to dist/
     {
       "title": "Project name",                  // URL slug is generated from this
       "year": "2025",
-      "thumbnail": "https://…jpg",              // optional — falls back to the Vimeo poster frame
+      "thumbnail": "thumb.jpg",                 // optional — leave out to always use the video's current Vimeo thumbnail
       "description": "Short description.",
       "videos": [                               // one or more
         { "vimeo": "https://vimeo.com/123456789", "caption": "Launch film, 60s" }
