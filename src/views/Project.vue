@@ -11,15 +11,27 @@ const index = computed(() => projects.findIndex((p) => p.slug === route.params.s
 const project = computed(() => projects[index.value])
 
 if (index.value < 0) router.replace('/')
+
+// Go back to where you came from (keeps your scroll position in the grid);
+// if the page was opened directly, go to the work grid instead.
+function goBack() {
+  if (window.history.state?.back) router.back()
+  else router.push({ name: 'home', hash: '#work' })
+}
 </script>
 
 <template>
   <main v-if="project" class="project wrap">
+    <button class="back" aria-label="Back to all work" @click="goBack" v-reveal>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6" /></svg>
+    </button>
+
     <header class="head">
       <h1 v-reveal>{{ project.title }}</h1>
       <div class="meta" v-reveal="120">
         <span class="num year">{{ project.year }}</span>
         <p class="desc">{{ project.description }}</p>
+        <p v-if="project.tools" class="tools">Tools used: {{ project.tools }}</p>
       </div>
     </header>
 
@@ -38,6 +50,25 @@ if (index.value < 0) router.replace('/')
 .project {
   padding-top: calc(var(--header-h) + clamp(48px, 9vw, 140px));
 }
+.back {
+  display: block;
+  margin-bottom: clamp(20px, 2.4vw, 36px);
+  color: var(--fg);
+}
+.back svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.5s var(--ease);
+}
+.back:hover svg {
+  transform: translateX(-5px);
+}
 .head {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -54,18 +85,24 @@ h1 {
   margin-left: -0.05em;
 }
 .meta {
-  grid-column: 9 / -1;
+  grid-column: 8 / -1;
   display: grid;
   gap: 14px;
 }
 .year {
   color: var(--muted);
 }
+.tools {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 46ch;
+}
 .desc {
   font-size: clamp(16px, 1.25vw, 19px);
   line-height: 1.45;
   letter-spacing: -0.01em;
-  max-width: 36ch;
+  max-width: 48ch;
 }
 
 .video + .video {
@@ -88,7 +125,26 @@ figcaption .num {
 
 
 @media (max-width: 760px) {
-  .head {
+  .back {
+  display: block;
+  margin-bottom: clamp(20px, 2.4vw, 36px);
+  color: var(--fg);
+}
+.back svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.5s var(--ease);
+}
+.back:hover svg {
+  transform: translateX(-5px);
+}
+.head {
     grid-template-columns: 1fr;
   }
   h1,

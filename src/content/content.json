@@ -1,16 +1,25 @@
 {
-  "showreel": "https://vimeo.com/1061880803",
+  "showreel": "https://vimeo.com/1234205128?fl",
 
   "contact": {
-    "title": "Manpreet Singh is a 3D and motion designer making form, light and movement for brands.",
-    "description": "Placeholder bio. Working across Cinema 4D, Houdini, Redshift and After Effects, from concept and look development through to final frames. Available for freelance and studio collaborations.",
+    "title": "Hi, I’m Manpreet Singh.",
+    "role": "Senior Motion Designer & VFX Artist",
+    "description": [
+      "Motion designer and VFX artist with nearly two decades of experience across television, film and fintech marketing, from broadcast openers for live sports to UI animation for tech products. I turn complex ideas into clear, high-impact visuals.",
+      "I’ve worked across Dubai, Doha, San Francisco and Calgary, between product, marketing and broadcast, in Cinema 4D, After Effects and Figma. My philosophy is simple: taste and polish should always serve clarity and purpose.",
+      "Recognised with a Bronze Clio for the ESPN College Football National Championship and a Silver New York Festival Award for the Jump Studios Demo Reel."
+    ],
+    "toolkit": [
+      { "label": "Software", "items": "After Effects, Cinema 4D, Figma, Premiere Pro, Photoshop, Illustrator" },
+      { "label": "Disciplines", "items": "2D/3D Animation, VFX, Product UI Motion, Storyboarding, Channel Branding" }
+    ],
     "portrait": "portrait.jpg",
     "resume": "resume.pdf",
-    "email": "hello@manpreetsingh.com",
+    "email": "manpreet.sk03@gmail.com",
     "links": [
-      { "label": "Vimeo", "url": "https://vimeo.com/" },
-      { "label": "Instagram", "url": "https://instagram.com/" },
-      { "label": "LinkedIn", "url": "https://linkedin.com/" }
+      { "label": "Vimeo", "url": "https://vimeo.com/manpreet" },
+      { "label": "Instagram", "url": "https://www.instagram.com/manpreetart" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/manpreetsinghkalra" }
     ]
   },
 
@@ -18,7 +27,8 @@
     {
       "title": "Helcim Brand Evolution",
       "year": "2024",
-      "description": "Placeholder description. Motion work for the evolution of the Helcim brand.",
+      "description": "Animated this manifesto to launch the company's new \"North Star\" brand identity. The goal? Ditch the generic B2B tech look and build a \"brand with teeth.\" This video introduces a provocative, merchant-focused design system built to disrupt the payments space.",
+      "tools": "After Effects, Figma, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598767", "caption": "New Brand Video" },
         { "vimeo": "https://vimeo.com/1233598719", "caption": "New Brand Launch Video" }
@@ -27,7 +37,8 @@
     {
       "title": "Card Reader Ads",
       "year": "2025",
-      "description": "Placeholder description. A set of short product ads for the Card Reader.",
+      "description": "From sleek 3D studio environments to dynamic live-action VFX, I created this campaign to launch the Helcim Card Reader's new colorful stands. The project contrasts clean, minimalist 3D product animations with an energetic mixed-media promo featuring a vibrant color-reveal effect over live-action footage.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598868", "caption": "Stand Colors" },
         { "vimeo": "https://vimeo.com/1233598860", "caption": "Stand Colors Animation" },
@@ -37,7 +48,8 @@
     {
       "title": "Savings Ads",
       "year": "2023",
-      "description": "Placeholder description. A pair of ads about business growth and savings.",
+      "description": "A series of 3D motion graphic ads designed for the Helcim payments platform. These short, punchy animations use playful visual metaphors, from isometric office growth to a literal \"lifesaver\" for your sinking savings, to highlight Helcim’s flexible payment solutions and cost saving benefits.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598721", "caption": "Business growth Ad" },
         { "vimeo": "https://vimeo.com/1233598798", "caption": "Savings 3D Animation Ad" }
@@ -46,7 +58,8 @@
     {
       "title": "Payment Extension Launch",
       "year": "2025",
-      "description": "Placeholder description. Launch film for the Helcim payment extension.",
+      "description": "I animated this product launch video for the Helcim Payment Extension. The spot uses clean UI animations to demonstrate how the browser extension seamlessly integrates into a user's existing software, allowing them to process transactions with a single click.",
+      "tools": "After Effects, Figma, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598734", "caption": "Helcim Payment Extension Launch Video" }
       ]
@@ -54,7 +67,8 @@
     {
       "title": "Smart Terminal Launch Video",
       "year": "2025",
-      "description": "Placeholder description. The extended launch film for the Smart Terminal.",
+      "description": "I animated this product launch video for the Helcim Smart Terminal. The spot seamlessly blends live-action footage of small business owners with stylized 3D environments and crisp UI animations. It effectively communicates the terminal's built-in features, transparent pricing, and ease of use in a single, cohesive narrative.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598802", "caption": "Smart Terminal Launch Video" }
       ]
@@ -62,7 +76,8 @@
     {
       "title": "Product test drives",
       "year": "2025",
-      "description": "Placeholder description. A pair of product walkthrough animations.",
+      "description": "Streamlining the payment experience. I animated this pair of product walkthroughs to highlight Helcim’s QuickBooks integration and Recurring Payments software. By blending sleek 3D motion graphics with clean UI animations, these spots show users exactly how easy it is to automate billing and sync invoices.",
+      "tools": "Cinema 4D, After Effects, Figma, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598736", "caption": "Helcim QBO Integration Animation Video" },
         { "vimeo": "https://vimeo.com/1233598795", "caption": "Recurring Helcim Payments Video" }
@@ -71,7 +86,8 @@
     {
       "title": "Smart Terminal scenes",
       "year": "2025",
-      "description": "Placeholder description. A pair of product scenes for the Smart Terminal.",
+      "description": "Sleek hardware meets vibrant 3D design. This pair of product animations showcases the Helcim Smart Terminal in both black and white models. Using dynamic lighting, floating translucent glass elements, and seamless transitions to a digital laptop interface, these spots elevate point of sale hardware into the premium space.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598712", "caption": "Smart terminal to Macbook" },
         { "vimeo": "https://vimeo.com/1233598858", "caption": "Smart terminal on abstract environment" }
@@ -80,7 +96,8 @@
     {
       "title": "Virtual Terminal",
       "year": "2025",
-      "description": "Placeholder description. A product film for the Virtual Terminal.",
+      "description": "A sleek product film created to showcase the Helcim Virtual Terminal. Combining polished 3D desktop environments with clean UI animations and lifestyle live-action, this video highlights how easily businesses can process online payments from any internet-connected device.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598870", "caption": "Virtual Terminal" }
       ]
@@ -88,7 +105,8 @@
     {
       "title": "Payments that fuels ambition",
       "year": "2025",
-      "description": "Placeholder description. A pair of short ads about payments that fuel business ambition.",
+      "description": "A pair of playful live-action ads created for the Helcim Smart Terminal. These fast-paced spots use dynamic frame transitions to showcase how Helcim’s hardware connects and empowers ambitious business owners.",
+      "tools": "After Effects, Figma, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598875", "caption": "Ask a Merchant Ad" },
         { "vimeo": "https://vimeo.com/1233598871", "caption": "Making the Connection Ad" }
@@ -97,7 +115,8 @@
     {
       "title": "Start Card",
       "year": "2025",
-      "description": "Placeholder description. A short product animation for the Start Card.",
+      "description": "Quick, colorful, and seamless. I created this 3D product spot for the Start Card to highlight a successful transaction through smooth motion graphics and vivid, high-contrast lighting.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598869", "caption": "Start Card" }
       ]
@@ -105,7 +124,8 @@
     {
       "title": "Hidden Fee Tracker",
       "year": "2025",
-      "description": "Placeholder description. A spot about tracking hidden fees.",
+      "description": "I animated this fast-paced, typography-driven ad for Helcim, calling out the industry's hidden fees and predatory contracts. The spot uses aggressive text scaling, kinetic typography, and bold colors to deliver a provocative message about fair pricing.",
+      "tools": "After Effects, Figma, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598759", "caption": "Hidden Fee Tracker Spot video" }
       ]
@@ -113,7 +133,8 @@
     {
       "title": "Products Spinning",
       "year": "2024",
-      "description": "Placeholder description. Product turntable animation.",
+      "description": "I created this vibrant 3D motion graphics piece to showcase a seamless digital payment suite. I designed a pastel, abstract environment to frame the floating UI, using sleek, folding transitions to highlight features like quick online payments, recurring subscriptions, and one-click invoicing.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598775", "caption": "Products Spinning Video" }
       ]
@@ -121,7 +142,8 @@
     {
       "title": "Smart Terminal Launch",
       "year": "2025",
-      "description": "Placeholder description. Launch film for the Smart Terminal.",
+      "description": "A 3D product launch video for the Helcim Smart Terminal. The animation uses dramatic, low-key lighting and exploded views to highlight the hardware's premium features, including a wider touchscreen and octa-core processor.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598799", "caption": "Smart Terminal Launch" }
       ]
@@ -129,7 +151,8 @@
     {
       "title": "International Women's Day",
       "year": "2025",
-      "description": "Placeholder description. A short film for International Women's Day.",
+      "description": "I animated this illustrated short film to announce Helcim's International Women's Day partnership with Chic Geek. Combining expressive watercolor reveals with stylized character illustrations, the piece is an empowering message that drives awareness for their March 8 donation campaign.",
+      "tools": "After Effects, Photoshop, Illustrator",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598760", "caption": "International Women's Day Video" }
       ]
@@ -137,7 +160,8 @@
     {
       "title": "April Fool 2025",
       "year": "2025",
-      "description": "Placeholder description. A playful short for April Fools' Day.",
+      "description": "I created this vibrant 3D motion graphics piece for Helcim's April Fools' Day campaign. The animation uses smooth exploded-view transitions to reveal a payment chip, playfully suggesting you can turn anything—from a stuffed animal to sunglasses—into a point-of-sale system.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233598709", "caption": "April fool Video 2025" }
       ]
@@ -145,7 +169,8 @@
     {
       "title": "Filmora 13 Launch",
       "year": "2025",
-      "description": "Placeholder description. Launch film for Filmora 13.",
+      "description": "The video uses a mix of live-action scenarios and slick UI animations to demonstrate how tools like the AI Copilot and Text-Based Editing streamline the creative process for videographers, podcasters, and small business owners.",
+      "tools": "Cinema 4D, After Effects, Premiere Pro, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233599616", "caption": "Filmora 13 Launch Video" }
       ]
@@ -153,7 +178,8 @@
     {
       "title": "Pet Feeder Ad",
       "year": "2025",
-      "description": "Placeholder description. A launch film built around a single continuous camera move, with every product beat timed to the score.",
+      "description": "I designed this continuous-shot 3D product film to launch the SmartFeeder. The animation highlights the feeder's colorful, modern design and smart features, with every camera movement and product beat locked perfectly to the musical score.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
         { "vimeo": "https://vimeo.com/1233599298", "caption": "Pet Feeder Ad, 12s" }
       ]
@@ -161,9 +187,11 @@
     {
       "title": "Beer Can Splash",
       "year": "2025",
-      "description": "Placeholder description. A product splash animation for a beer can.",
+      "description": "A high-impact 3D splash animation for the \"Das Helcim Hefe\" beer can. This product visualization features realistic liquid simulations and detailed condensation mapping to create a striking, photorealistic aesthetic.",
+      "tools": "Cinema 4D, After Effects, Photoshop",
       "videos": [
-        { "vimeo": "https://vimeo.com/1233606375", "caption": "Beer Can Splash Animation" }
+        { "vimeo": "https://vimeo.com/1233606375", "caption": "Beer Can Splash Animation" },
+        { "vimeo": "https://vimeo.com/1234232909", "caption": "Beer Can Flip" }
       ]
     }
   ]

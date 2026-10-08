@@ -9,8 +9,21 @@ import { contact, asset } from '../content'
     </div>
 
     <div class="text">
-      <h1 v-reveal="80">{{ contact.title }}</h1>
-      <p class="desc" v-reveal="160">{{ contact.description }}</p>
+      <header v-reveal="80">
+        <h1>{{ contact.title }}</h1>
+        <p v-if="contact.role" class="role">{{ contact.role }}</p>
+      </header>
+
+      <div class="bio" v-reveal="160">
+        <p v-for="(para, i) in [].concat(contact.description)" :key="i">{{ para }}</p>
+      </div>
+
+      <dl v-if="contact.toolkit" class="toolkit" v-reveal="200">
+        <div v-for="t in contact.toolkit" :key="t.label">
+          <dt>{{ t.label }}</dt>
+          <dd>{{ t.items }}</dd>
+        </div>
+      </dl>
 
       <ul class="actions" v-reveal="240">
         <li><a :href="`mailto:${contact.email}`" class="link">{{ contact.email }}</a></li>
@@ -45,21 +58,49 @@ import { contact, asset } from '../content'
 .text {
   grid-column: 7 / -1;
   display: grid;
-  gap: clamp(24px, 3vw, 40px);
-  align-self: end;
+  gap: clamp(28px, 3vw, 44px);
+  align-self: start;
+  max-width: 640px;
 }
 h1 {
-  font-size: clamp(30px, 3.6vw, 60px);
+  font-size: clamp(34px, 4.4vw, 72px);
   font-weight: 500;
-  letter-spacing: -0.045em;
-  line-height: 1.02;
+  letter-spacing: -0.05em;
+  line-height: 0.98;
   text-wrap: balance;
 }
-.desc {
+.role {
+  margin-top: 14px;
   color: var(--muted);
   font-size: clamp(16px, 1.25vw, 19px);
+  letter-spacing: -0.01em;
+}
+.bio {
+  display: grid;
+  gap: 1.1em;
+  font-size: clamp(16px, 1.15vw, 18px);
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  color: rgba(236, 235, 231, 0.78);
+  max-width: 56ch;
+}
+.toolkit {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+  font-size: 15px;
   line-height: 1.45;
-  max-width: 44ch;
+}
+.toolkit div {
+  display: grid;
+  grid-template-columns: 7.5em 1fr;
+  gap: 16px;
+}
+.toolkit dt {
+  color: var(--muted);
+}
+.toolkit dd {
+  margin: 0;
 }
 .actions {
   list-style: none;
@@ -78,6 +119,10 @@ h1 {
   .portrait,
   .text {
     grid-column: auto;
+  }
+  .toolkit div {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 }
 </style>
